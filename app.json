@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/main_page/main_page",
+    "pages/index/index",
+    "pages/addCgi/addCgi",
+    "pages/kind/kind",
+    "pages/mine/mine",
+    "pages/yibao/yibao",
+    "pages/Info/info"
+  ],
+  "window": {
+    "backgroundColor": "#FFFFFF",
+    "backgroundTextStyle": "dark",
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "navigationBarTitleText": ""
+  },
+  "tabBar": {
+    "color": "#7F8389",
+    "selectedColor": "#00C2C2",
+    "borderStyle": "white",
+    "backgroundColor": "#F7F7F9",
+    "list": [
+      {
+        "pagePath": "pages/main_page/main_page",
+        "iconPath": "image/nav/home-off.png",
+        "selectedIconPath": "image/nav/home-on.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/yibao/yibao",
+        "iconPath": "image/nav/tb_4.png",
+        "selectedIconPath": "image/nav/tb_4_f.png",
+        "text": "易宝"
+      },
+      {
+        "pagePath": "pages/kind/kind",
+        "iconPath": "image/nav/menu-off.png",
+        "selectedIconPath": "image/nav/menu-on.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "image/nav/my-off.png",
+        "selectedIconPath": "image/nav/my-on.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
