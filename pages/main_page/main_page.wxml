@@ -1,0 +1,27 @@
+<!--client/pages/main_page/main_page.wxml-->
+
+<view class='bannerWrap'>
+  <swiper class='bannerSwiper' previous-margin="60rpx" next-margin='60rpx' indicator-dots="true" 
+          indicator-color='#B5B5B5' indicator-active-color='#fff' interval='3000'
+          duration='500' bindchange='handleChange' circular='true' autoplay='true'>
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image class="{{index==xindex?'imageBanner':'imageBanner_small'}}" src="{{imgUrls}}" 
+                id='{{imgUrls}}' bindtap='imageClick'></image>
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class='my_title_parent'>
+    <text class='my_title'>推荐书目</text>
+    <view class='my_title'>最新公告</view>
+  </view>
+  <view class="parent">
+    <block wx:for="{{datas}}">
+      <view class='child' bindtap='toINFO'>
+        <image class="child_image" src="{{item.image}}"></image>
+        <text class='child_text'>{{item.name}}</text>
+      </view>
+    </block>
+  </view>
+</view>
+

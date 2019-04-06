@@ -1,0 +1,6 @@
+<!--client/pages/yibao/yibao.wxml-->
+<view class='yibao_main'>
+  <button class='button1'><text class='text'>捐赠</text></button>
+  <button class='button2'><text class='text'>发布</text></button>
+  <button class='button3'><text class='text'>收购</text></button>
+</view>
